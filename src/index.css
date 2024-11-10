@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#1a1b2e] text-gray-100;
+    background-image: 
+      linear-gradient(to bottom, rgba(26, 27, 46, 0.9), rgba(26, 27, 46, 0.95)),
+      url('https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.1');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
